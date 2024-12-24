@@ -18,7 +18,7 @@ class Voin(object):
                 print('Первый юнит:', self1.get())
                 print('Второй юнит:', self2.get())
             if who_is_first == 2:
-                self.set(self1.get() - 20)
+                self1.set(self1.get() - 20)
                 print('Второй юнит ударил. Оставшееся здоровье:')
                 print('Первый юнит:', self1.get())
                 print('Второй юнит:', self2.get())
